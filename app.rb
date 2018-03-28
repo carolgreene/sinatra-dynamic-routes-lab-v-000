@@ -37,7 +37,7 @@ class App < Sinatra::Base
 
       "#{@number1 + @number2}"
 
-    
+
   end
 
 
