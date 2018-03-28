@@ -21,6 +21,7 @@ class App < Sinatra::Base
       phrases << "#{@phrase}"
 
       phrases 
+    end 
 
   end
 
