@@ -17,11 +17,11 @@ class App < Sinatra::Base
     @number = params[:number].to_i
     @phrase = params[:phrase]
     phrases = []
-    @number.times do 
+    @number.times do
       phrases << "#{@phrase}"
 
-      phrases 
-    end 
+      phrases
+    end
 
   end
 
