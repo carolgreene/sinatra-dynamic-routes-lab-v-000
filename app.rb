@@ -36,6 +36,7 @@ class App < Sinatra::Base
     @number2 = params[:number2]
     if @opeation == "add"
       "#{@number1 + @number2}"
+    end 
 
 
   end
